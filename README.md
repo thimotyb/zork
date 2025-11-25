@@ -29,9 +29,8 @@ This workspace already contains everything you need to play the newly open-licen
 A prebuilt interpreter is provided, but you can regenerate it with the bundled Zig compiler toolchain (stored under `downloads/zig-linux-x86_64-0.13.0`). From the repo root run:
 
 ```bash
+./scripts/ensure-zig.sh
 cd frotz
-# Ensure the toolchain is extracted (run from repo root if the directory is missing):
-#   tar -xf downloads/zig-linux-x86_64-0.13.0.tar.xz -C downloads
 ../downloads/zig-linux-x86_64-0.13.0/zig cc \
   -std=c99 -D_POSIX_C_SOURCE=200809L -Wall -g -fcommon -fwrapv \
   -Isrc/common -Isrc/dumb -Isrc/blorb -Isrc \
