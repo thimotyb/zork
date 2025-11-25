@@ -25,6 +25,8 @@ This workspace already contains everything you need to play the newly open-licen
 2. Interact with the game as normal (`look`, `north`, etc.).
 3. Quit with `quit` followed by `y` when prompted.
 
+Prefer a green-on-black “phosphor” vibe? Launch via `./play-zork1-green.sh` instead. It temporarily sets OSC 10/11 colors to a bright green foreground on black background and restores your defaults on exit. Override the colors if needed by exporting `ZORK_GREEN_*` variables (e.g., `ZORK_GREEN_FG=#7fff6e`).
+
 ## Rebuilding Frotz (optional)
 A prebuilt interpreter is provided, but you can regenerate it with the bundled Zig compiler toolchain (stored under `downloads/zig-linux-x86_64-0.13.0`). From the repo root run:
 
