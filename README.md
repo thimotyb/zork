@@ -54,3 +54,6 @@ The Microsoft OSPO blog links similar repositories for Zork II and III. To add t
 - **`Illegal instruction (core dumped)` when certain actions run**: rebuild using the command above. The `-fwrapv` flag disables Zig/Clang’s default signed-overflow traps so Frotz’s RNG can wrap as originally intended.
 
 Enjoy exploring the Great Underground Empire!
+
+## Reference Walkthrough
+Need a nudge or want to study a complete transcript? A classic Zork I walkthrough from MIT’s archives is mirrored at `docs/zork1-walkthrough.html`.
